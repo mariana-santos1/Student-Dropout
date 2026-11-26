@@ -137,7 +137,7 @@ A comparação entre diferentes algoritmos permite investigar suas capacidades d
 
 ## Colaboradores
 Projeto desenvolvido em equipe por:
-- [Mariana Santos](https://github.com/mariana-santos1)
-- [Roberta Bezerra](https://github.com/roberta-bez).
-- [Mickaelly Silva](https://github.com/Mickaellysilva).
 - [Jaqueline Silva](https://github.com/jaqueline-silva4).
+- [Mariana Santos](https://github.com/mariana-santos1).
+- [Mickaelly Silva](https://github.com/Mickaellysilva).
+- [Roberta Bezerra](https://github.com/roberta-bez).
