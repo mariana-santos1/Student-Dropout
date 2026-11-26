@@ -123,17 +123,17 @@ Para reproduzir a análise, siga os passos:
 **Observação:** o arquivo CSV deve estar disponível no ambiente do Colab com o nome `student dropout.csv`, conforme especificado no código.
 ## Resultados
 
-Os resultados permitem comparar o desempenho dos três algoritmos na identificação de possíveis casos de evasão escolar.
+Foram avaliados três algoritmos de Aprendizado de Máquina: Árvore de Decisão, K-Nearest Neighbors (KNN) e Support Vector Machine (SVM). Entre os modelos analisados, a Árvore de Decisão apresentou o melhor desempenho geral, alcançando acurácia média de 92,10%, precisão de 78,35%, recall de 69,33% e F1-Score de 72,89%, considerando 20 execuções com diferentes divisões dos dados.
 
-As médias das métricas e os desvios padrão auxiliam na análise comparativa, enquanto as matrizes de confusão permitem observar os acertos e erros de classificação para cada classe.
-
-As análises de correlação complementam a investigação, apresentando as variáveis que possuem maiores associações com a ocorrência de evasão.
+Os resultados indicam que o modelo apresentou maior capacidade de identificação de estudantes em situação de risco de evasão em comparação aos demais algoritmos avaliados. As métricas, matrizes de confusão e análises de correlação permitem observar o desempenho dos modelos e a relação entre as variáveis disponíveis e a evasão estudantil.
 
 ## Considerações finais
 
-O projeto busca demonstrar como técnicas de Machine Learning podem contribuir para a análise de dados educacionais e para a identificação de padrões associados à evasão escolar.
+O estudo demonstrou o potencial do Aprendizado de Máquina como ferramenta de apoio à identificação de estudantes em situação de risco de evasão, contribuindo para uma tomada de decisão educacional mais orientada por dados.
 
-A comparação entre diferentes algoritmos permite investigar suas capacidades de classificação e fornecer informações que podem auxiliar na elaboração de estratégias de acompanhamento e prevenção da evasão.
+Os resultados reforçam a possibilidade de utilizar modelos preditivos para subsidiar ações preventivas, como acompanhamento pedagógico, assistência estudantil e apoio psicossocial, favorecendo estratégias institucionais voltadas à permanência acadêmica.
+
+Como limitação, destaca-se a utilização de uma base de dados secundária composta por estudantes do ensino secundário português, o que pode restringir a generalização dos resultados para outros contextos educacionais. Para trabalhos futuros, sugere-se a aplicação da metodologia em bases de instituições brasileiras, além da avaliação de outros algoritmos e técnicas de balanceamento e otimização dos modelos.
 
 ## Colaboradores
 Projeto desenvolvido em equipe por:
